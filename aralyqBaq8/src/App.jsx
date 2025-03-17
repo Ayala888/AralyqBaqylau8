@@ -24,6 +24,11 @@ function App() {
     ) 
   }
 
+  if(saved == ""){
+    alert("Сіз тіркелмедіңіз")
+  } else{
+    kiru()
+  }
 
   function kiru(){
     <div>
